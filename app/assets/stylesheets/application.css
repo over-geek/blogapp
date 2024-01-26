@@ -15,29 +15,29 @@
  */
 
 .nav-bar {
-	padding: 10px;
+  padding: 10px;
 }
 
 .nav-bar ul {
-	display: flex;
-	list-style-type: none;
-	justify-content: right;
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
 }
 
 .nav-bar ul li {
-	margin-left: 5px;
+  margin-left: 5px;
 }
 
 .login-container,
 .signup-container {
-	width: 40%;
-	margin: 0 auto;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .login-container form {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .input-fill-width {
-	width: 100%;
+  width: 100%;
 }
