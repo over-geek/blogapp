@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_user
+  before_action :authenticate_user!, only: %i[new create]
 
   def index
     @user = User.find(params[:user_id])

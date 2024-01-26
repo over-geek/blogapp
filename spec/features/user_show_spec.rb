@@ -43,6 +43,7 @@ RSpec.describe 'Visit the user show page', type: :feature do
     visit user_path(@user)
 
     # Expect to see See All Posts button
+
     expect(page).to have_content 'See All Posts'
 
     click_link 'See All Posts'
